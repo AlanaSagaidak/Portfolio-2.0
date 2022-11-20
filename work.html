@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Aliona Sahaidak is a front-end engineer based in Ukraine."
+    />
+    <title>Work</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -32,6 +36,24 @@
   </head>
   <body>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li>
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="/Portfolio-2.0/about.html" title="About Aliona">About</a>
+          </li>
+          <li class="active">
+            <a href="/Portfolio-2.0/work.html" title="Aliona's work">Work</a>
+          </li>
+          <li>
+            <a href="/Portfolio-2.0/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
       <div class="content-container">
         <div class="content">
           <h1 class="mb-4">Take a look at what I've been working on</h1>
@@ -39,9 +61,9 @@
             <div class="col-md-6 mb-4">
               <img
                 src="images/yogurt.png"
-                alt="img-fluid"
+                alt="yogurt project preview"
                 width="500px"
-                class="rounded"
+                class="img-fluid rounded"
               />
               <h3 class="text-center">Yogurt Project</h3>
               <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -49,9 +71,9 @@
             <div class="col-md-6 mb-4">
               <img
                 src="images/weather.png"
-                alt="img-fluid"
+                alt="weather project preview"
                 width="500px"
-                class="rounded"
+                class="img-fluid rounded"
               />
               <h3 class="text-center">Weather Project</h3>
               <p class="text-center text-muted">
@@ -61,9 +83,9 @@
             <div class="col-md-6 mb-4">
               <img
                 src="images/dictionary.png"
-                alt="img-fluid"
+                alt="dictionary project preview"
                 width="500px"
-                class="rounded"
+                class="img-fluid rounded"
               />
               <h3 class="text-center">Dictionary App</h3>
               <p class="text-center text-muted">
@@ -73,9 +95,9 @@
             <div class="col-md-6 mb-4">
               <img
                 src="images/trans.png"
-                alt="img-fluid"
+                alt="Translation project preview"
                 width="500px"
-                class="rounded"
+                class="img-fluid rounded"
               />
               <h3 class="text-center">Translation App</h3>
               <p class="text-center text-muted">
@@ -85,6 +107,61 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/Portfolio-2.0/contact.html"
+              class="btn get-started"
+              title="Contact Aliona"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:sahaidakalana@gmail.com"
+            class="email-link"
+            title="email Aliona"
+            >sahaidakalana@gmail.com</a
+          >
+        </div>
+        <div class="social-link d-flex justify-content-center">
+          <a
+            href="https://t.me/AlanaSagaidak"
+            title="telegramAliona"
+            target="_blank"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+          <a
+            href="https://github.com/AlanaSagaidak"
+            title="github Aliona"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="linkedin.com/in/aliona-sahaidak-17a256225"
+            title="linkedin Aliona"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/AlanaSagaidak/Portfolio-2.0.git"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
